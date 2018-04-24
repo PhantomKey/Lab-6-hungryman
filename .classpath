@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="con" path="org.eclipse.fx.ide.jdt.core.JAVAFX_CONTAINER"/>
+	<classpathentry kind="lib" path="okhttp-3.10.0.jar"/>
+	<classpathentry kind="lib" path="gson-2.8.2.jar"/>
+	<classpathentry kind="lib" path="okio-1.14.0.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
