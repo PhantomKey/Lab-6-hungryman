@@ -37,7 +37,7 @@ public class DetailPage extends BorderPane {
 		LinearGradient topBorderPaint = new LinearGradient(0, 0, 1, 0, true, CycleMethod.NO_CYCLE, stops);
 		setBorder(new Border(new BorderStroke(topBorderPaint, BorderStrokeStyle.SOLID, CornerRadii.EMPTY,
 				new BorderWidths(10, 0, 0, 0))));
-
+ 
 		// Top bar
 
 		goBackButton = new Button("Go Back");

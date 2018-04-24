@@ -19,5 +19,5 @@ public class SearchResultEntry {
 
 	public Image getImage() {
 		return image;
-	}
+	} 
 }

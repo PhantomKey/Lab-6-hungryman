@@ -21,7 +21,6 @@ public class LoaderBar extends Canvas {
 		
 
 		GraphicsContext ctx = getGraphicsContext2D();
-		System.out.println("hi");
 		AnimationTimer animationTimer = new AnimationTimer() {
 			long initialNow = 0;
 			boolean isFirst = true;
@@ -42,9 +41,8 @@ public class LoaderBar extends Canvas {
 				}
 
 				long ellapsed = now - initialNow;
-
+				System.out.println("hi");
 				double period = 0.5e9;
-				System.out.println("kuykuykyu");
 				double progress = (ellapsed / period) % 1.0;
 				double l = progress > 0.5 ? Math.pow(Math.sin((progress * 4 - 3) * Math.PI / 2.0) / 2 + 0.5, 1.5) : 0;
 				double r = progress < 0.5 ? Math.pow(Math.sin((progress * 4 - 1) * Math.PI / 2.0) / 2 + 0.5, 1.5) : 1;
@@ -57,7 +55,7 @@ public class LoaderBar extends Canvas {
 		
 		
 		animationTimer.start();
-		System.out.println("is running");
+
 		
 
 		isAnimating = true;

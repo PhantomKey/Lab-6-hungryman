@@ -52,7 +52,7 @@ public class WelcomePage extends VBox {
 		Label hintLabel = new Label("e.g. Siam Paragon, Chamchuri Square, Chula Engineering");
 		hintLabel.setFont(new Font(13));
 		hintLabel.setTextFill(Color.GRAY);
-
+ 
 		searchButton = new Button("Search");
 		searchButton.setFont(new Font(20));
 		searchButton.setPadding(new Insets(10, 50, 10, 50));

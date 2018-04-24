@@ -34,7 +34,7 @@ class SearchEntryCell extends ListCell<SearchResultEntry> {
 
 		setGraphic(cell);
 	}
-
+ 
 	protected HBox createSearchEntryCell(ImageView imageView, Label labelName, Label labelAddress,
 			Label labelRating) {
 		// Set All Pane

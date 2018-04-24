@@ -89,7 +89,7 @@ public class DataRequester {
 			throw new IllegalArgumentException("Query string cannot be null.");
 		}
 
-		if (placeName.trim().isEmpty()) {
+		if (placeName.trim().isEmpty()) { 
 			throw new DataRequestException("Please enter the name of a place.");
 		}
 
